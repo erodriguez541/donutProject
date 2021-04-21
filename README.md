@@ -1,4 +1,4 @@
 # donutProject
 Creating a Donut and Daily Joke App
 
-Chris notes - google places api, google maps api, door dash api, nutri facts api
+Chris notes - app opens and user inputs address and pushs submit, the app then returns a list of closest places to get a donut and offers an option for delivery through doordash.
