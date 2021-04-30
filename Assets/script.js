@@ -31,7 +31,7 @@ function donutTracker(searchTerm){
       var nearbyRequest = {
           location: results[0].geometry.location,
           radius: 2000,
-          keyword: "donuts, gas stations that sell donuts"
+          keyword: "donuts"
       }
       service.nearbySearch(nearbyRequest, function(results, status){
         if (status === google.maps.places.PlacesServiceStatus.OK && results){
