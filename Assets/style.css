@@ -12,6 +12,7 @@
       
       /* Optional: Makes the sample page fill the window. */
       body {
+ feature/googleapi
         height: 50%;
         margin: auto;
         background-image: url("./Images/donutBG.jpeg");
@@ -94,3 +95,9 @@ h3 {
   font-size: 50px;
   color: yellow;
 }
+
+        height: 100%;
+        margin: 5;
+        padding: 5;
+      }
+ develop
