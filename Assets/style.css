@@ -8,7 +8,8 @@
         height: 600px;
         align-items: center; 
        }
-       
+
+
       
       /* Optional: Makes the sample page fill the window. */
       body {
@@ -94,3 +95,4 @@ h3 {
   font-size: 50px;
   color: yellow;
 }
+
