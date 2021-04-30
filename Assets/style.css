@@ -1,35 +1,32 @@
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-
-       body {
-        background-image: url(".Assets/Images/donutBG.jpeg");
-        background-color: #cccccc;
-        float: auto;
-      }
+        
+        
+      
+      #map{
+        width: 925px;
+        height: 600px;
+        align-items: center; 
+       }
        
-       
-       
-       #map {
-        height: 50%;
-        float: inline-end;
-      }
       
       /* Optional: Makes the sample page fill the window. */
-      html,
       body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
+        height: 50%;
+        margin: auto;
         background-image: url("./Images/donutBG.jpeg");
         background-size: 1700px;
-        background-color: #cccccc;
+
+        background-repeat: repeat-x;
+        background-position: right top;
       }
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 
 :root {
   /* Base font size */
-  font-size: 6px;   
+  font-size: 6px;
+     
   
   /* Set neon color */
   --neon-text-color: #f40;
@@ -37,9 +34,6 @@
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
-  display: flex;
-  justify-content: center;
   align-items: center;  
   min-height: 100vh;
 }
@@ -50,7 +44,6 @@ h1 {
   font-style: italic;
   color: #fff;
   padding: 4rem 6rem 5.5rem;
-  border: 0.4rem solid #fff;
   border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;     
@@ -66,9 +59,7 @@ h1::selection {
   color: var(--neon-text-color);
 }
 
-h1:focus {
-  outline: none;
-}
+
 
 /* Animate neon flicker */
 @keyframes flicker {
@@ -99,3 +90,7 @@ h1:focus {
     }    
 }
       
+h3 {
+  font-size: 50px;
+  color: yellow;
+}
