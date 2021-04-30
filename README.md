@@ -1,22 +1,36 @@
 # donutProject
-Creating a Donut and Daily Joke App
+Creating a Donut Finder App
+
+This application, titled Go-Nuts, is a specifc food locator app. It allows the user to locate the nearest availble dount. 
+
+The user can enter in their; 
+-state 
+-city 
+-zipcode
+
+The app will use the Google Maps API to create a list of donut shops.
 
 
-Chris notes - app opens and user inputs address and pushs submit, the app then returns a list of closest places to get a donut and offers an option for delivery through doordash.
+Future developments will include a notification feature so users could be alerted when they are near their favorite donut shops. Also included in future iterations would include a joke feature.
 
 
-# Links
-https://sv443.net/jokeapi/v2/ (JOKE API)
 
 
-1) Connect Bootstrap to the html file
-2) Connect Joke Api
-        A) add the ajax call 
-3) Connect Google Places API
-        A) add the ajax call 
-4) Add an image of the donut in the HTML file
-5) We will need the Joke to display on page
-6) Need the places to show nearest donut shop
-7) Need a way for the user to add their location
-8) A way to submit that information to the application to call google places
-9) 
+
+
+
+
+https://erodriguez541.github.io/donutProject/
+
+
+
+Credits:
+
+https://developers.google.com/maps/documentation/places/web-service/search?hl=en_US
+
+
+Collaborators:
+https://github.com/Christilea
+https://github.com/Csayegh123
+https://github.com/erodriguez541
+https://github.com/spirithoula
