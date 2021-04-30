@@ -10,7 +10,10 @@ let infowindow;
 function initMap() {
   const sydney = new google.maps.LatLng(-38.98, 94.67);
   infowindow = new google.maps.InfoWindow();
-  map = new google.maps.Map(document.getElementById("map"), {zoom:12});
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: sydney,
+    zoom: 15,
+  });
   service = new google.maps.places.PlacesService(map);
   donutTracker("66220")
 }
@@ -66,4 +69,3 @@ $('#donut-tracker-search').on('click', function(event){
   console.log(donutSearch);
   donutTracker(donutSearch);
 })
-
